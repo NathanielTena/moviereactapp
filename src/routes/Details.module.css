@@ -1,0 +1,24 @@
+.container {
+    height: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+  }
+
+  .container_movie {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 50%;
+    padding-top: 70px;
+  }
