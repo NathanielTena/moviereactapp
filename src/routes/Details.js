@@ -5,7 +5,7 @@ import MovieId from "../components/MovieId";
 
 function Detail() {
   const [loading, setLoading] = useState(true);
-  const [movie, setMovies] = useState([]);
+  const [movie, setMovies] = useState(undefined);
   const { id } = useParams();
 
   const getMovieId = async () => {
@@ -18,7 +18,7 @@ function Detail() {
 
   useEffect(() => {
     getMovieId();
-  }, []);
+  });
 
   return (
     <div className={styles.container}>
